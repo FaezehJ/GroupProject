@@ -1,0 +1,46 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e3a579;
+}
+
+/* Header Banner */
+.hero {background-image: url(https://pierced.co/cdn/shop/files/contact-us-banner.jpg?v=1613177296)
+
+}
+.hero {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.hero h1 {
+  font-size: 1rem;
+margin-bottom: 0.5rem;
+}
+
+.larger-banner {
+  height: 400px;  
+}
+
+
+/* Contact Form Section */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Section Before Footer */
+
+.pre-footer {
+  
+  background-image: url(https://pierced.co/cdn/shop/files/footer-banner-m.jpg?v=1613177296);
+  height: 600px;
+  width: 420px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Footer */
+footer   {
+  list-style: center;
+}
