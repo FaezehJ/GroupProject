@@ -1,46 +1,79 @@
+
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #e3a579;
+    background-color: darkgray;
 }
 
-/* Header Banner */
-.hero {background-image: url(https://pierced.co/cdn/shop/files/contact-us-banner.jpg?v=1613177296)
 
+
+/* Navbar styles */
+.navbar {
+    background-color: #2c3e50;
 }
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #dfcdde;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #3498db;
+}
+
+/* Hero section styles */
 .hero {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
+    background-image: url(https://pierced.co/cdn/shop/files/contact-us-banner.jpg?v=1613177296);
 }
+
 .hero h1 {
-  font-size: 1rem;
-margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-.larger-banner {
-  height: 400px;  
+.hero .btn-primary {
+    background-color: #094166;
+    border: none;
 }
 
-
-/* Contact Form Section */
-form {
-  max-width: 600px;
-  margin: 0 auto;
+/* Mission section styles */
+.mission {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    padding: 1rem 0;
 }
 
-/* Section Before Footer */
+.mission h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 
-.pre-footer {
+/* Form section styles */
+form .form-control {
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50;
+    color: #dfcdde;
+    padding: 1rem 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-banner {
+    background-image: url('https://pierced.co/cdn/shop/files/footer-banner-m.jpg?v=1613177296');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-banner h1 {
+    animation: fadeInSlide 2s forwards;
+}
   
-  background-image: url(https://pierced.co/cdn/shop/files/footer-banner-m.jpg?v=1613177296);
-  height: 600px;
-  width: 420px;
-  background-size: cover;
-  background-position: center;
-}
-
-
-/* Footer */
-footer   {
-  list-style: center;
-}
