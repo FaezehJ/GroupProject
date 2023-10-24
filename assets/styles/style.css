@@ -1,0 +1,42 @@
+h1 {color: black;
+    font-family: 'Caprasimo', cursive;font-size: 100px;
+
+}
+.top-section {background-color:rgb(255, 231, 235);height: 850px;}
+p {font: size 600px;
+    font-size: larger; 
+    font-family: 'Contrail One', cursive;
+ }
+ .web-heading{width: 50%;}   
+
+.float-end{height: 100%;width: 50%;background-image: url("https://pierced.co/cdn/shop/files/545b73db-f8d3-465b-89af-2c67415f4a18.png?v=1669427011");}
+ p{font-size: 38px;font-family: 'Oswald', sans-serif; font-weight:bold;
+ }
+ button{background-color: white; color:black; font-size: 30px; text-align: center;
+    font-family: 'Oswald', sans-serif 
+}
+ button:hover{color: red;}
+ .middle-section-right{background-color: white; padding: 6%; height:70px;}
+ h2{text-align: right;
+    font-family: 'Contrail One', cursive;
+    font-size: 80px}
+
+    img {float: left; margin-right: 10%;max-width: max-content;}
+    div.text{text-align: left; font-size: 26px;margin-top: 6%; font-weight: bold; margin-bottom: 8%;}
+  
+    h2{ padding-bottom: 4%; font-size: 45px;margin-top: 15%; text-align: left; font-weight: bolder;}
+
+
+
+  li{text-align: right; ;font-size: 22px; float: left; padding-top: 1%;}
+  
+  
+  
+  ul{list-style-type: none; margin: 0%}
+  button.btn-book{ border: 4%; float: right;}
+  footer{ margin: 15%; ;}
+    .link{color: red};
+
+    
+
+    
